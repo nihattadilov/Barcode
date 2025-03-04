@@ -13,7 +13,7 @@ from core.models import (
     ProductAttribute,
 )
 from core.forms import OneClickOrderForm, ContactForm
-
+# salam
 
 class ModelTests(TestCase):
     def setUp(self):
