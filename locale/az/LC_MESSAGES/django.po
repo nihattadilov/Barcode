@@ -1,0 +1,2534 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-26 02:30+0400\n"
+"Language: az\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: Barcode/settings.py:147 Barcode/settings.py:148
+msgid "English"
+msgstr "İngiliscə"
+
+#: Barcode/settings.py:149
+msgid "Azerbaijani"
+msgstr "Azərbaycanca"
+
+#: core/models.py:32
+msgid "Category"
+msgstr "Kateqoriya"
+
+#: core/models.py:33
+#, fuzzy
+#| msgid "Categories"
+msgid "Catagories"
+msgstr "Kateqoriyalar"
+
+#: core/models.py:52
+msgid "Color"
+msgstr "Rəng"
+
+#: core/models.py:53
+msgid "Colors"
+msgstr "Rənglər"
+
+#: core/models.py:73
+msgid "Protuct"
+msgstr ""
+
+#: core/models.py:74
+msgid "Products"
+msgstr "Məhsullar"
+
+#: core/models.py:97 core/templates/blog.html:13
+#: core/templates/partials/header.html:80
+#: core/templates/partials/header.html:190
+msgid "Blog"
+msgstr "Blog"
+
+#: core/models.py:98
+msgid "Blogs"
+msgstr "Bloglar"
+
+#: core/models.py:126 core/templates/contact.html:15
+#: core/templates/partials/header.html:89
+#: core/templates/partials/header.html:199
+msgid "Contact"
+msgstr "Əlaqə"
+
+#: core/models.py:127
+msgid "Contacts"
+msgstr "Əlaqələr"
+
+#: core/models.py:138
+msgid "ContactMail"
+msgstr "ƏlaqəMail"
+
+#: core/models.py:139
+msgid "ContactMails"
+msgstr "ƏlaqəMaillər"
+
+#: core/templates/about.html:14
+msgid "About"
+msgstr "Haqqında"
+
+#: core/templates/contact.html:29
+msgid "Send Us A Message"
+msgstr "Mesaj Göndər"
+
+#: core/templates/contact.html:45
+msgid "Submit"
+msgstr "Göndər"
+
+#: core/templates/contact.html:58
+msgid "Address"
+msgstr "Ünvan"
+
+#: core/templates/contact.html:69
+msgid "Lets Talk"
+msgstr "Söhbət edək"
+
+#: core/templates/contact.html:80
+msgid "Sale Support"
+msgstr "Satış Dəstəyi"
+
+#: core/templates/index.html:16
+msgid "Latest tech here"
+msgstr "Son texnologiya burada"
+
+#: core/templates/index.html:22
+msgid "Explore today"
+msgstr "kəşf et"
+
+#: core/templates/index.html:28 core/templates/index.html:52
+#: core/templates/index.html:76 core/templates/index.html:105
+#: core/templates/index.html:127 core/templates/index.html:149
+msgid "Shop Now"
+msgstr "alış-veriş et"
+
+#: core/templates/index.html:40
+msgid "Premium brands"
+msgstr "Premium markalar"
+
+#: core/templates/index.html:46
+msgid "Top Quality"
+msgstr "Ən yüksək keyfiyyət"
+
+#: core/templates/index.html:64
+msgid "Top electronics selection"
+msgstr "Ən yaxşı elektronika seçimi"
+
+#: core/templates/index.html:70
+msgid "New arrivals"
+msgstr "Yeni Gələnlər"
+
+#: core/templates/index.html:99
+#, fuzzy
+#| msgid "Phones"
+msgid "Phone"
+msgstr "Telefonlar"
+
+#: core/templates/index.html:121
+msgid "TV"
+msgstr "TV"
+
+#: core/templates/index.html:142
+msgid "Freezer"
+msgstr "Dondurucu"
+
+#: core/templates/index.html:210
+msgid "Product Overview"
+msgstr "Məhsul haqqında baxış"
+
+#: core/templates/index.html:217 core/templates/product.html:19
+#, fuzzy
+#| msgid "Products"
+msgid "All Products"
+msgstr "Bütün Məhsullar"
+
+#: core/templates/partials/footer.html:74
+msgid "GET IN TOUCH"
+msgstr "GET IN TOUCH"
+
+#: core/templates/partials/header.html:73
+#: core/templates/partials/header.html:183
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/templates/admin/index.html:25
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/500.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/app_index.html:11
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:136
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:153
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:141
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:141
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:142
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:142
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/change_list.html:72
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:13
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:13
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:18
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/invalid_setup.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:8
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/index.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/missing_docutils.html:8
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/model_detail.html:20
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/model_index.html:23
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/template_filter_index.html:25
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/template_tag_index.html:27
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/view_detail.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/view_index.html:23
+#: myenv/lib/python3.8/site-packages/grappelli/templates/grp_doc/basic_page_structure.html:132
+#: myenv/lib/python3.8/site-packages/grappelli/templates/grp_doc/context_navigation.html:55
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_done.html:6
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:6
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_form.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_list.html:6
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/revision_form.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:24
+msgid "Home"
+msgstr ""
+
+#: core/templates/partials/header.html:77
+#: core/templates/partials/header.html:187
+#, fuzzy
+#| msgid "Shop Now"
+msgid "Shop"
+msgstr "alış-veriş et"
+
+#: core/templates/product-detail.html:90
+#, fuzzy
+msgid "It is enough to come to our store to get the product."
+msgstr "Məhsulu əldə etmək üçün mağazamıza gəlməyiniz kifayətdir"
+
+#: core/templates/search.html:11
+msgid "No results found"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1309
+#: myenv/lib/python3.8/site-packages/click/decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1340
+#: myenv/lib/python3.8/site-packages/click/core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1387
+msgid "Options"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2778
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2821
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/core.py:2834
+msgid "required"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:44
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:80
+#, python-brace-format
+msgid "Error: {message}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/shell_completion.py:319
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:176
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:822
+msgid "file"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:824
+msgid "directory"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:826
+msgid "path"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/click/types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/contrib/messages/apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: myenv/lib/python3.8/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:104
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:279
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:287
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:316
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:296
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:317
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:308
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:315
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:351
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:357
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:392
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:401
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:410
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:420
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:438
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:461
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:347
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:463
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:468
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:544
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/core/validators.py:605
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/base.py:1423
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:893
+msgid "and"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1358
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1845
+#, fuzzy
+#| msgid "Address"
+msgid "Email address"
+msgstr "Ünvan"
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2113
+#, fuzzy
+#| msgid "Address"
+msgid "IPv4 address"
+msgstr "Ünvan"
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2144
+#, fuzzy
+#| msgid "Address"
+msgid "IP address"
+msgstr "Ünvan"
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2237
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2456
+msgid "Time"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2588
+msgid "Raw binary data"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/files.py:232
+msgid "File"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/files.py:393
+msgid "Image"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/db/models/fields/related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: myenv/lib/python3.8/site-packages/django/forms/boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:467
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:490
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:694
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:857
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:949
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:951
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1070
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1310
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/fields.py:1340
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: myenv/lib/python3.8/site-packages/django/forms/forms.py:98
+msgid ":"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/forms.py:244
+#: myenv/lib/python3.8/site-packages/django/forms/forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:484
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/formsets.py:499
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:19
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/submit_line.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:26
+msgid "Delete"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:463
+msgid "Clear"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:465
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:26
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:78
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:10
+msgid "Change"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:795
+msgid "Yes"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/forms/widgets.py:796
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:861
+msgid "yes,no,maybe"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:891
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:908
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:910
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:912
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:914
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:916
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/template/defaultfilters.py:918
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:48
+#, fuzzy
+#| msgid "Contact"
+msgid "oct"
+msgstr "Əlaqə"
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/text.py:84
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/text.py:269
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: myenv/lib/python3.8/site-packages/django/utils/text.py:288
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:64
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:115
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:349
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:7
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:72
+msgid "Only POST method is allowed"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:86
+msgid "Attachment module is disabled"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:93
+msgid "Only authenticated users are allowed"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:99
+msgid "No files were requested"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:140
+msgid "File size exceeds the limit allowed and cannot be saved"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/django_summernote/views.py:160
+msgid "Failed to save attachment"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:87
+msgid "Dashboard"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:131
+msgid "Quick links"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:134
+msgid "Return to site"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:135
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:11
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:57
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:103
+msgid "Change password"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:137
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:106
+msgid "Log out"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:143
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/modules.py:216
+msgid "Applications"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:149
+msgid "Administration"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:154
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/modules.py:295
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:69
+msgid "Recent actions"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:158
+msgid "Latest Django News"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:165
+#, fuzzy
+#| msgid "Sale Support"
+msgid "Support"
+msgstr "Satış Dəstəyi"
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:168
+msgid "Django documentation"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:174
+msgid "Django \"django-users\" mailing list"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/dashboards.py:180
+msgid "Django irc channel"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/modules.py:184
+msgid "Links"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/modules.py:356
+msgid "RSS Feed"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/templates/grappelli/dashboard/modules/app_list.html:19
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/templates/grappelli/dashboard/modules/model_list.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/app_index.html:30
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:159
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:44
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:18
+#, fuzzy
+#| msgid "Address"
+msgid "Add"
+msgstr "Ünvan"
+
+#: myenv/lib/python3.8/site-packages/grappelli/dashboard/templates/grappelli/dashboard/modules/recent_actions.html:18
+msgid "None Available"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/404.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/404.html:11
+msgid "Page not found"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/404.html:12
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/500.html:10
+msgid "Server error"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/500.html:15
+msgid "Server error (500)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/500.html:19
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/500.html:20
+msgid ""
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/actions.html:4
+msgid "Run the selected action"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/actions.html:4
+msgid "Go"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/actions.html:11
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/actions.html:12
+#, fuzzy
+#| msgid "Top electronics selection"
+msgid "Clear selection"
+msgstr "Ən yaxşı elektronika seçimi"
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/app_index.html:13
+#, python-format
+msgid "<li>%(name)s</li>"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/app_index.html:37
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:52
+msgid "You don´t have permission to edit anything."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:15
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_done.html:7
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:7
+msgid "Password change"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:24
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:27
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:190
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:222
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:230
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:227
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:221
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/login.html:31
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:40
+msgid "Please correct the error below."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:27
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:190
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:222
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:230
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:227
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:221
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/login.html:31
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:42
+msgid "Please correct the errors below."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:34
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:30
+msgid "New password"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:46
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:37
+msgid "Password (again)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/auth/user/change_password.html:50
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:29
+msgid "Enter the same password as above, for verification."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:82
+msgid "Django administration"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:113
+msgid "View site"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/base.html:118
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:9
+msgid "Documentation"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:143
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:9
+msgid "Open All Items"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:144
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:10
+msgid "Close All Items"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:171
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:15
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/revision_form.html:11
+msgid "History"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_form.html:172
+msgid "View on site"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:159
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:159
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:160
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:160
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/change_list.html:15
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:188
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:188
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:175
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:175
+msgid "Filter"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list.html:249
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:257
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:254
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_sidebar.html:248
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/change_list.html:108
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/submit_line.html:10
+msgid "Save"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:195
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:179
+msgid "Apply"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm.html:196
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_filter_confirm_sidebar.html:180
+msgid "Reset"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_results.html:18
+msgid "Toggle sorting"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_results.html:19
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/change_list_results.html:20
+msgid "Remove from sorting"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/includes/results_list.html:8
+msgid "Name"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/includes/results_list.html:13
+msgid "Default"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/includes/results_list.html:18
+msgid "Value"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/includes/results_list.html:23
+msgid "Is modified"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/constance/includes/results_list.html:67
+msgid "Reset to default"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:12
+msgid "Export selection as CSV"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:31
+msgid "Export following fields:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:34
+msgid "Select all"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:54
+msgid "Back"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/csv_export_selected_confirmation.html:55
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/import_export/change_list_export_item.html:4
+msgid "Export"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:29
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:37
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:47
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:55
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:58
+msgid "Cancel"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_confirmation.html:56
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:59
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:16
+msgid "Delete multiple objects"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:34
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/delete_selected_confirmation.html:44
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:11
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:60
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:108
+msgid "Add Item"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:29
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:81
+msgid "View on Site"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:31
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:83
+msgid "Move Item"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:35
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:40
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:87
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:92
+msgid "Delete Item"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/stacked.html:58
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:106
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/edit_inline/tabular.html:9
+msgid "Add Another"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/filter.html:4
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/filter_listing.html:3
+#, python-format
+msgid "%(filter_title)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/import_export/change_list_import_item.html:4
+msgid "Import"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/includes/object_delete_summary.html:3
+msgid "Summary"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:57
+msgid "Custom Views"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:71
+msgid "My actions"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/index.html:74
+msgid "None available"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/invalid_setup.html:16
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/login.html:26
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/login.html:67
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_complete.html:17
+msgid "Log in"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/login.html:60
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:26
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/object_history.html:13
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_list.html:22
+msgid "Date/time"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:27
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/object_history.html:14
+msgid "User"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:28
+msgid "Action"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:34
+msgid "DATETIME_FORMAT"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/object_history.html:42
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/object_history.html:36
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:9
+#: myenv/lib/python3.8/site-packages/grappelli/views/related.py:257
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:14
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:16
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:22
+#, python-format
+msgid ""
+"\n"
+"                        %(counter)s result\n"
+"                    "
+msgid_plural ""
+"\n"
+"                        %(counter)s results\n"
+"                    "
+msgstr[0] ""
+msgstr[1] ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:31
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/pagination.html:44
+msgid "Show all"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/popup_response.html:3
+msgid "Popup closing..."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/related_widget_wrapper.html:24
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/widgets/related_widget_wrapper.html:18
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/submit_line.html:13
+msgid "Save as new"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/submit_line.html:16
+msgid "Save and add another"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/submit_line.html:19
+msgid "Save and continue editing"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/widgets/related_widget_wrapper.html:11
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:8
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin/widgets/related_widget_wrapper.html:25
+#: myenv/lib/python3.8/site-packages/grappelli/templates/related_widget_wrapper.html:24
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:10
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:16
+msgid "Bookmarklets"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:13
+msgid "Documentation bookmarklets"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:18
+msgid ""
+"\n"
+"            <p>To install bookmarklets, drag the link to your bookmarks\n"
+"    toolbar, or right-click the link and add it to your bookmarks. Now you "
+"can\n"
+"    select the bookmarklet from any page in the site.  Note that some of "
+"these\n"
+"    bookmarklets require you to be viewing the site from a computer "
+"designated\n"
+"    as \"internal\" (talk to your system administrator if you aren't sure "
+"if\n"
+"    your computer is \"internal\").</p>\n"
+"        "
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:27
+msgid "Documentation for this page"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:28
+msgid ""
+"Jumps you from any page to the documentation for the view that generates "
+"that page."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:31
+msgid "Show object ID"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:32
+msgid ""
+"Shows the content-type and unique ID for pages that represent a single "
+"object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:35
+msgid "Edit this object (current window)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:36
+msgid "Jumps to the admin page for pages that represent a single object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:39
+msgid "Edit this object (new window)"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/bookmarklets.html:40
+msgid "As above, but opens the admin page in a new window."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/view_index.html:43
+msgid "Empty namespace"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/admin_doc/view_index.html:57
+msgid "Views by empty namespace"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/logged_out.html:16
+msgid "Log in again"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_done.html:16
+msgid "Your password was changed."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:18
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:23
+msgid "Old password"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_change_form.html:46
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:35
+msgid "Change my password"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_complete.html:16
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:18
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:21
+msgid "New password:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:26
+msgid "Confirm password:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_confirm.html:47
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_done.html:5
+msgid "Password reset successful"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_done.html:16
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_done.html:17
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_form.html:5
+msgid "Password reset"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_form.html:17
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_form.html:20
+msgid "Email address:"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/registration/password_reset_form.html:28
+msgid "Reset my password"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/change_list.html:6
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_form.html:10
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_list.html:9
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/object_history.html:7
+msgid ""
+"Choose a date from the list below to revert to a previous version of this "
+"object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/object_history.html:15
+msgid "Comment"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_form.html:20
+msgid "Press the save button below to recover this version of the object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_list.html:16
+msgid ""
+"Choose a date from the list below to recover a deleted version of an object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/recover_list.html:36
+msgid "There are no deleted objects to recover."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/revision_form.html:12
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/reversion/revision_form.html:21
+msgid "Press the save button below to revert to this version of the object."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/change_list.html:7
+msgid "Dump data"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/change_list.html:11
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:6
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:25
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:35
+msgid "Load data"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:46
+msgid ""
+"Existing items with same <strong>primary key</strong> will be overwritten."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templates/smuggler/load_data_form.html:53
+msgid "Load"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/templatetags/grp_tags.py:63
+msgid "Django site admin"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/tests/test_switch.py:101
+#: myenv/lib/python3.8/site-packages/grappelli/tests/test_switch.py:160
+#: myenv/lib/python3.8/site-packages/grappelli/views/switch.py:44
+#: myenv/lib/python3.8/site-packages/grappelli/views/switch.py:55
+msgid "Permission denied."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/tests/test_switch.py:144
+#: myenv/lib/python3.8/site-packages/grappelli/views/switch.py:47
+#: myenv/lib/python3.8/site-packages/grappelli/views/switch.py:58
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/grappelli/views/related.py:127
+#: myenv/lib/python3.8/site-packages/grappelli/views/related.py:157
+msgid "?"
+msgstr ""
+
+#: myenv/lib/python3.8/site-packages/modeltranslation/widgets.py:24
+msgid "None"
+msgstr ""
+
+#~ msgid "German"
+#~ msgstr "Alman"

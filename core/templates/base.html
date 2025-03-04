@@ -1,0 +1,380 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{%block title%}Barcode{%endblock%}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{{setting_data.logo.url}}" />
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/linearicons-v1.0.0/icon-font.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}" >
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}" >
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/slick/slick.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/MagnificPopup/magnific-popup.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/perfect-scrollbar/perfect-scrollbar.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}" >
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" >
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+	<style>
+
+		.manat {
+			font-family: 'Noto Sans', sans-serif;
+		  }
+		
+			.one-click-form {
+				display: none; /* Form başlangıçda gizlidir */
+				max-width: 400px;
+				margin: 20px auto;
+				padding: 20px;
+				background-color: #fff;
+				border-radius: 8px;
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+				text-align: center;
+			}
+	
+			/* Başlıq */
+			.form-title {
+				font-size: 18px;
+				font-weight: bold;
+				color: #333;
+				margin-bottom: 15px;
+			}
+	
+			/* Input qutuları */
+			.form-group {
+				margin-bottom: 15px;
+			}
+	
+			.form-input {
+				width: 100%;
+				padding: 12px;
+				font-size: 14px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				box-sizing: border-box;
+			}
+	
+			/* Input fokus effekti */
+			.form-input:focus {
+				border-color: #007bff;
+				outline: none;
+				box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+			}
+	
+			/* Göndər düyməsi */
+			.submit-btn {
+				width: 100%;
+				padding: 12px;
+				font-size: 16px;
+				background-color: #007bff;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				transition: background-color 0.3s ease-in-out;
+			}
+	
+			.submit-btn:hover {
+				background-color: #0056b3;
+			}
+	
+			/* Placeholder yazısı */
+			::placeholder {
+				color: #aaa;
+				font-style: italic;
+			}
+		
+		.czm-button {
+            position: fixed;
+            bottom: 20px; /* Alt küncdə yerləşdirmək üçün */
+            right: 20px;  /* Sağ küncdə yerləşdirmək üçün */
+            z-index: 100;
+            background-color: rgb(16, 195, 121); /* WhatsApp rəngi */
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; /* Dairəvi forma */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .czm-button-person-avatar i {
+            color: white;
+            font-size: 30px;
+        }
+
+        /* Popup pəncərəsinin stili */
+        .czm-popup {
+            position: fixed;
+            bottom: 90px; /* Popup düymənin üzərinə açılacaq */
+            right: 20px;
+            z-index: 101;
+            background-color: white;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            display: none; /* Başlanğıcda gizli olacaq */
+        }
+
+        .czm-popup-header {
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(16, 195, 121);
+            color: white;
+        }
+
+        .czm-popup-close {
+            cursor: pointer;
+            font-size: 20px;
+            color: white;
+        }
+
+        .czm-popup-persons {
+            padding: 15px;
+        }
+
+        .czm-popup-person {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .czm-popup-person-avatar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .czm-popup-person-title {
+            font-weight: bold;
+        }
+
+        .czm-popup-start-chat-button {
+            background-color: rgb(16, 195, 121);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Animasiya və açılma/bağlanma */
+        .animate__popup__1 {
+            animation: popupAnimation 0.3s ease-in-out;
+        }
+
+        @keyframes popupAnimation {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+		.block-27 {
+		  margin-top: 20px; /* İstediğiniz boşluk değeri */
+		  text-align: center; /* Sayfanın ortalanması */
+		}
+	
+		.block-27 .pagination {
+		  display: inline-block; /* Pagination'ın yatay olarak sıralanması */
+		}
+	
+		.block-27 .pagination li {
+		  display: inline; /* Sayfa numaralarının yatay olarak sıralanması */
+		  margin-right: 5px; /* Numaralar arası boşluk */
+		}
+	
+		.block-27 .pagination li.active a {
+		  background-color: #007bff; /* Aktif sayfa numarasının arka plan rengi */
+		  color: #fff; /* Aktif sayfa numarasının metin rengi */
+		  padding: 6px 12px; /* Aktif sayfa numarasının iç boşluğu */
+		  border-radius: 4px; /* Aktif sayfa numarasının köşe yuvarlaması */
+		}
+	
+		.block-27 .pagination li a {
+		  color: #007bff; /* Sayfa numaralarının metin rengi */
+		  padding: 6px 12px; /* Sayfa numaralarının iç boşluğu */
+		  border: 1px solid #007bff; /* Sayfa numaralarının kenarlık rengi */
+		  border-radius: 4px; /* Sayfa numaralarının köşe yuvarlaması */
+		}
+	
+		.block-27 .pagination li a:hover {
+		  background-color: #f5f5f5; /* Fare üzerine geldiğinde sayfa numarasının arka plan rengi */
+		}		
+	  </style>
+</head>
+<body class="animsition">
+	
+{% include 'partials/header.html' %}
+
+{% block content %}
+
+
+{% endblock %}
+
+
+{% include 'partials/footer.html' %}
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="zmdi zmdi-chevron-up"></i>
+		</span>
+	</div>
+
+	<!-- Modal1 -->
+
+
+<!--===============================================================================================-->	
+	<script>
+		// Popup pəncərəsini aç/bağla
+		const whatsappButton = document.querySelector('.czm-button');
+		const popup = document.querySelector('.czm-popup');
+		const closeButton = document.querySelector('.czm-popup-close');
+
+		whatsappButton.addEventListener('click', () => {
+			popup.style.display = 'block'; // Aç popup
+		});
+
+		closeButton.addEventListener('click', () => {
+			popup.style.display = 'none'; // Bağla popup
+		});
+	</script>
+
+<!--===============================================================================================-->
+
+	<script src= "{%static 'vendor/jquery/jquery-3.2.1.min.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/animsition/js/animsition.min.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/bootstrap/js/popper.js' %}" ></script>
+	<script src= "{%static 'vendor/bootstrap/js/bootstrap.min.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/select2/select2.min.js' %}" ></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/daterangepicker/moment.min.js' %}" ></script>
+	<script src= "{%static 'vendor/daterangepicker/daterangepicker.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/slick/slick.min.js' %}" ></script>
+	<script src= "{%static 'js/slick-custom.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{%static 'vendor/parallax100/parallax100.js' %}" ></script>
+	<script>
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script src= "{% static 'vendor/MagnificPopup/jquery.magnific-popup.min.js' %}" ></script>
+	<script>
+		$('.gallery-lb').each(function() { // the containers for all your galleries
+			$(this).magnificPopup({
+		        delegate: 'a', // the selector for gallery item
+		        type: 'image',
+		        gallery: {
+		        	enabled:true
+		        },
+		        mainClass: 'mfp-fade'
+		    });
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src= "{% static 'vendor/isotope/isotope.pkgd.min.js' %}" ></script>
+<!--===============================================================================================-->
+	<script src= "{% static 'vendor/sweetalert/sweetalert.min.js' %}" ></script>
+	<script>
+		$('.js-addwish-b2').on('click', function(e){
+			e.preventDefault();
+		});
+
+		$('.js-addwish-b2').each(function(){
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
+
+		$('.js-addwish-detail').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
+
+		/*---------------------------------------------*/
+
+		$('.js-addcart-detail').each(function(){
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+	
+	</script>
+<!--===============================================================================================-->
+	<script src= "{% static 'vendor/perfect-scrollbar/perfect-scrollbar.min.js' %}"  ></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			$(this).css('position','relative');
+			$(this).css('overflow','hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+	</script>
+	
+<!--===============================================================================================-->
+	<script src= "{% static 'js/main.js' %}" ></script>
+</body>
+</html>
+
