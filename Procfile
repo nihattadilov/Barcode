@@ -1,1 +1,1 @@
-worker: python migrate_and_load.py
+web: gunicorn Barcode.wsgi:application
