@@ -1,1 +1,1 @@
-worker: python migrate_and_load.py
+web: python migrate_and_load.py
