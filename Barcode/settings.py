@@ -174,7 +174,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # AUTH_USER_MODEL = 'user.MyUser'
 
 gettext = lambda s: s
-LANGUAGES = (
+LANGUAGES = (   
     ("en", gettext("English")),
     ("tr", gettext("English")),
     ("az", gettext("Azerbaijani")),
