@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "Barcode.wsgi.application"
+WSGI_APPLICATION = "barcode.wsgi.application"
 
 
 # Database
