@@ -1,1 +1,1 @@
-web: python migrate_and_load.py
+web: gunicorn barcode.wsgi:application
