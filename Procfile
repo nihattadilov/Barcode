@@ -1,1 +1,1 @@
-web: gunicorn barcode.wsgi:application
+web: gunicorn Barcode.wsgi:application 
