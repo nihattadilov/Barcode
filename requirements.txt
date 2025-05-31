@@ -38,7 +38,6 @@ packaging==25.0
 pillow==10.2.0
 polib==1.2.0
 prompt_toolkit==3.0.51
-psycopg2==2.9.10
 psycopg2-binary==2.9.10
 pycparser==2.21
 PyJWT==2.8.0
