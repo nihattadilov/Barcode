@@ -5,7 +5,7 @@ services:
     container_name: postgres-db-rest_framework
     image: postgres:13.0-alpine
     ports:
-      - 5432:5432
+      - 5433:5432
     volumes:
       - rest_framework_postgres-data:/var/lib/postgresql/data
     env_file: .env
