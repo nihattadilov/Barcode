@@ -23,7 +23,7 @@ services:
     restart: always
     env_file: .env
     environment:
-      - VIRTUAL_HOST=demo.barcode.com
+      - VIRTUAL_HOST=167.71.55.217
       - VIRTUAL_PORT=8000
     volumes:
       - ../..:/code
