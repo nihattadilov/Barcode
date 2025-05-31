@@ -25,6 +25,7 @@ services:
     environment:
       - VIRTUAL_HOST=167.71.55.217
       - VIRTUAL_PORT=8000
+      - HTTP_PORT=8000
     volumes:
       - ../..:/code
     expose:
