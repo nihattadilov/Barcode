@@ -6,8 +6,9 @@ from django.utils.translation import gettext_lazy as _
 load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 SECRET_KEY = os.environ.get("SECRET_KEY")
+
+
 DEBUG = os.getenv("DEBUG",False)!=False
 ALLOWED_HOSTS = ['*']
 
@@ -62,6 +63,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "Barcode.wsgi.application"
+
+
 
 DATABASES = {
     "default": {
